@@ -1,0 +1,1 @@
+Namespace(train='data/yelp/train.txt', valid='data/yelp/valid.txt', save_dir='checkpoints/yelp/daae', load_model='', vocab_size=10000, dim_z=128, dim_emb=512, dim_h=1024, nlayers=1, dim_d=512, model_type='aae', lambda_kl=0, lambda_adv=10.0, lambda_p=0, noise=[0.3, 0.0, 0.0, 0.0], dropout=0.5, lr=0.0005, epochs=50, batch_size=256, seed=1111, no_cuda=False, log_interval=100)

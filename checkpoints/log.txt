@@ -1,0 +1,13 @@
+Namespace(train='training/cult.txt', valid='training/cult.txt', save_dir='checkpoints/', load_model='', vocab_size=10000, dim_z=128, dim_emb=512, dim_h=1024, nlayers=1, dim_d=512, model_type='aae', lambda_kl=0, lambda_adv=10.0, lambda_p=0, noise=[0.3, 0.0, 0.0, 0.0], dropout=0.5, lr=0.0005, epochs=10, batch_size=256, seed=1111, no_cuda=True, log_interval=10)
+# train sents 1693, tokens 58958
+# valid sents 1693, tokens 58958
+# vocab size 10005
+# model parameters: 34933782
+--------------------------------------------------------------------------------
+Namespace(train='training/cult.txt', valid='training/cult.txt', save_dir='checkpoints/', load_model='', vocab_size=20000, dim_z=128, dim_emb=512, dim_h=1024, nlayers=1, dim_d=512, model_type='aae', lambda_kl=0, lambda_adv=10.0, lambda_p=0, noise=[0.3, 0.0, 0.0, 0.0], dropout=0.5, lr=0.0005, epochs=10, batch_size=256, seed=1111, no_cuda=True, log_interval=10)
+# train sents 1693, tokens 58958
+# valid sents 1693, tokens 58958
+# vocab size 10244
+# model parameters: 35301125
+--------------------------------------------------------------------------------
+| epoch   1 |    10/  213 batches | rec 853.66, adv 0.59, |lvar| 56.69, loss_d 1.52, loss 859.53,
